@@ -17,12 +17,18 @@ Average delivery time
 - Per type of cuisine 
 - Per order count
 
-### Q1
+## How will we query the data?
+The data was obtained through Kaggle: "NYC Restaurant Data - Food Ordering and Delivery" by user Ahsan Raza.
+The dataset includes various columns such as: 
+- customer_id: ID of the customer who ordered the food; 
+- restaurant_name: Name of the restaurant; 
+- cuisine_type: Cusine ordered by the customer; 
+- cost_of_the_order: Cost of the order; 
 
+- day_of_the_week: Indicates whether the order is placed on a weekday or weekend (The weekday is from Monday to Friday and the weekend is Saturday and Sunday); 
 
+- rating: Rating given by the customer out of 5;
 
-### Q2
+- food_preparation_time: Time (in minutes) taken by the restaurant to prepare the food. This is calculated by taking the difference between the timestamps of the restaurant's order confirmation and the delivery person's pick-up confirmation.;
 
-
-
-### Q3
+- delivery_time: Time (in minutes) taken by the delivery person to deliver the food package. This is calculated by taking the difference between the timestamps of the delivery person's pick-up confirmation and drop-off information
