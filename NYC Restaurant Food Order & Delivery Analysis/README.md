@@ -17,7 +17,7 @@ Average delivery time
 - Per type of cuisine 
 - Per order count
 
-## How will we query the data?
+## Lets take a look at our dataset
 The data was obtained through Kaggle: "NYC Restaurant Data - Food Ordering and Delivery" by user Ahsan Raza.
 The dataset includes various columns such as: 
 - customer_id: ID of the customer who ordered the food; 
